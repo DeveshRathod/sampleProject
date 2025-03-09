@@ -4,7 +4,7 @@ const PORT = 3000;
 
 // Hello route
 app.get("/", (req, res) => {
-  res.send("This is server update");
+  res.send("This is server update1.0.1");
 });
 
 // Health check route
