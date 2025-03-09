@@ -6,7 +6,7 @@ metadata:
   labels:
     app: express
 spec:
-  replicas: 3
+  replicas: 4
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: express-container
-          image: devesh11411/express-server:update
+          image: devesh11411/express-server:update1.0.1
           ports:
             - containerPort: 3000
 
